@@ -1,0 +1,27 @@
+.tableImg{padding:0 50px}
+.floatLeft{float:left}
+.upload{border-radius:25px;}
+.imgCover{width: 100px;height:100px;margin-left:-150px;cursor: pointer;}
+.imgCover img{width:100%;height:100%;border-radius: 50%; border: 1px solid #ddd;vertical-align:middle;}
+.tableImg .el-form-item__label{text-align:left;font-size:15px;}
+.tableImg .widthInput{width:210px;}
+.tableImg .el-button{font-size:14px;}
+.tableImg .el-form-item{padding: 10px 0;}
+.tableImg .middle{line-height:100px;}
+.tableImg .bigger{padding:7px 30px;}
+.linkNumber .el-dialog{width:500px;min-width:500px;position:relative;left:50%;top:15%;margin-left:-240px;}
+.linkNumber  .el-input{width:350px;}
+.linkNumber .el-dialog__title{font-weight:700}
+.linkNumber  .el-input__inner{position:relative;display:inline-block;width:100%;height:50px  !important;padding:5px 10px;font-size:15px;}
+.btnPosition{width:108px;position:absolute;left:230px;top:6px;}
+.linkNumber .sureBtn{width:100%;font-size:18px;}
+.colorCommon{color: #969696;}
+.always{font-size: 14px;padding: 0 15px 0 5px;}
+.paddingRight{padding-right:10px;}
+.colorDeep{color:black;cursor: pointer;}
+.usePhone{ color:black;text-align:center;}
+.fontSize{font-size: 25px;}
+.inputCover .el-input{width:100%;}
+.inputCover .btnPosition{left:340px;}
+.linkNumber .el-form-item__error{ height: 12px; position: relative;margin-top: 10px;}
+

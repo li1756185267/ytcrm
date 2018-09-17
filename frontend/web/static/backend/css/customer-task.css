@@ -1,0 +1,20 @@
+.TaskAdd{ height: auto; overflow: hidden; margin-bottom: 15px}
+.FieldMain{ width: 100%; display: flex}
+.FieldMain .FieldLeft{ border-right:1px solid #ddd; width: 340px; padding-right: 10px }
+.FieldMain .FieldLeft,.FieldMain .FieldRight{ flex: 5}
+.FieldMain .FieldLeft .el-form-item__label{font-size: 20px;}
+.FieldMain .FieldLeft i{ float: right; line-height: 40px;}
+.FieldMain .FieldLeft .el-button{ float: right;}
+.FieldMain .FieldRight .el-form-item__content{ margin-left:20px !important;}
+.FieldMain .FieldRight span{ float: left;}
+.FieldMain .FieldRight .el-button{ float: right;}
+.DataButton {height: auto; overflow: hidden; margin-bottom: 20px; text-align: right}
+
+.list{ height: auto; overflow: hidden; margin-bottom: 20px;}
+.tag-dial .option ul li{ display: block; width: 100%; padding: 10px 0;}
+.tag-dial .option ul li span.text{ float: left; line-height: 39px}
+.tag-dial .option ul li .el-button{ width: 120px; text-align: left; margin-left: 15px}
+.tag-dial .option ul li .el-button i{ margin-right: 5px}
+
+.assignNumber{margin-bottom:20px;color:red;}
+.assignNumber .el-input{width:200px; margin-left:15px;}

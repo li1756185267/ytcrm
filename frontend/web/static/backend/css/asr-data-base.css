@@ -1,0 +1,5 @@
+.DataButton{ text-align: right; margin-top: 15px; height: auto; overflow: hidden;}
+.tag-dial .option ul li{ display: block; width: 100%; padding: 10px 0;}
+.tag-dial .option ul li span.text{ float: left; line-height: 39px}
+.tag-dial .option ul li .el-button{ width: 120px; text-align: left; margin-left: 15px}
+.tag-dial .option ul li .el-button i{ margin-right: 5px}

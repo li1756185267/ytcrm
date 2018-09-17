@@ -1,0 +1,26 @@
+
+/*通话记录界面样式*/
+
+.ButtonList li{ display: inline-block; float: left; margin-right: 10px}
+.button-right{ float: right !important; text-align: right}
+.button-right [class*=el-col-]{ float: right}
+.ButtonList .el-button{ font-size: 12px; padding: 10px 15px;}
+.TopForm .timep  .call-active .el-input__inner {min-width: 102px !important;}
+.TopForm .timep .el-input__inner{ width: 180px}
+
+.tag-dial .el-form-item__label{ float: left; text-align: right}
+
+.Prompt-dial .el-dialog{ width: 320px} 
+.Prompt-dial .el-dialog span{font-size: 14px; line-height: 18px}
+.Prompt-dial .el-dialog span i{font-size: 18px; float: left;}
+.PromptDown .el-dialog span.successText{ text-align:center; display: block}
+.PromptDown .el-dialog__body{text-align: center}
+.PromptDown .el-button{ margin-top: 15px; padding: 8px 20px;}
+.rev-operation{ margin-bottom: 15px; height: auto; overflow: hidden}
+.CallCount ul.up,.CallCount ul.down{ height: auto; overflow: hidden; display: block}
+.CallCount ul.up li,.CallCount ul.down li{ float: left;}
+.CallCount ul.down li .timep .el-input__inner{ width: 190px}
+
+
+
+

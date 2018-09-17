@@ -1,0 +1,15 @@
+.SystemSettings{  height: auto; overflow: hidden;}
+.SystemSettings  .pamin{height: auto; overflow: hidden; margin-bottom: 15px}
+.SystemSettings  .pamin ul li{ float: left; margin-right: 10px}
+.SystemSettings  .pamin ul li.title{ display: block; width: 120px; line-height: 35px; text-align: right;font-size: 14px;}
+.SystemSettings  .pamin ul li em,.SystemSettings  .pamin ul li span.bt{ line-height: 35px}
+.SystemSettings  .pamin ul li span.bt {border: 1px solid #fbc4c4; padding: 5px 8px; background: #fef0f0; color: #f56c6c; margin-right: 10px}
+.SystemSettings  .pamin ul li .el-cascader{ line-height: 35px}
+
+.AuthipMain ul{display: flex}
+.AuthipMain ul li.input{ flex: 5; padding-top:75px} 
+.AuthipMain ul li.button{ flex: 1; padding: 0px 10px; padding-top: 50px}
+.AuthipMain ul li.button .el-button{ margin-bottom: 10px}
+.AuthipMain ul li.button .el-button+.el-button{ margin: 0;}
+.AuthipMain ul li.list{ flex: 4; border: 1px solid #dcdfe6; border-radius:3px; padding:10px 15px;max-height: 172px; overflow-y: auto }
+.AuthipMain ul li.list .el-radio{ display: block; margin-left: 0px; line-height: 25px}

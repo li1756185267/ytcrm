@@ -1,0 +1,92 @@
+/*机器人设置列表样式*/
+.AIadd { text-align: left; margin-bottom: 15px; height: auto; overflow: hidden; padding-left: 5px}
+.AIlist{ height: auto; overflow: hidden;}
+.AIlist ul li { display: inline-block; height: auto; overflow: hidden; min-width: 536px;max-width:600px;}
+.AIlist ul li .grid-content{ margin: 0px 5px; border: 1px solid #f1f1f1; margin-bottom: 10px; border-radius:3px; cursor: pointer; }
+.AIlist ul li:hover .grid-content{ border-color:#409EFF; transition: border-color 0.8s; -webkit-transition: border-color 0.8s; }
+.AIlist ul li .AiTop{ background: #409fff; height: auto;overflow: hidden;color: #fff;
+     border-top-left-radius:3px;border-top-right-radius:3px; padding:10px; font-size: 16px}
+.AIlist ul li .ListMain{ padding: 10px; display: flex}
+.AIlist ul li .ListMain .pic{flex: 2; padding-right: 10px}
+.AIlist ul li .ListMain .pic img{ width:141px}
+.AIlist ul li .ListMain .AiInfo{ flex: 8; height: auto;overflow: hidden; color: #999}
+.AIlist ul li .ListMain .Upton,.AIlist ul li .ListMain .machine,.AIlist ul li .AiButton{ height: auto; overflow: hidden;} 
+.AIlist ul li .ListMain .Upton{ text-align: center}
+.AIlist ul li .ListMain .Upton .list{ display: inline-block; width: 109px; margin-bottom: 15px}
+.AIlist ul li .ListMain .Upton .list .title{ margin-bottom: 10px;}
+.AIlist ul li .ListMain .Upton .list .time{ color: #409fff}
+.AIlist ul li .ListMain .Upton .center{ border-left:1px solid #409fff;border-right:1px solid #409fff; padding: 0px 15px;  width: 93px}
+.AIlist ul li .ListMain .machine{ text-align: left; padding-left: 20px; margin-bottom: 10px}
+.AIlist ul li .ListMain .machine span{ color: #409fff}
+.AIlist ul li .ListMain .AiButton .el-button{ padding: 10px }
+.AIlist ul li .ListMain .Countp{ color: #ff0000; text-align: left; padding-left: 20px; margin-bottom: 10px; height: 16px;}
+.AIlist ul li .ListMain .Countp em{ font-style: normal}
+/*机器人添加时的样式*/
+.dial-header .el-dialog__header span{ text-align: left}
+.addMins ul li.Slider{ width: 350px; display: block; float: left; margin-right: 10px}
+.addMins ul li{ display: inline-block}
+.Infos ul li{ line-height: 35px; color: #409fff;font-size: 14px;display: block; height: auto; overflow: hidden;}
+.Infos ul li span{display: block; float: left;  text-align: right; color: #999}
+ul li.right{margin-right:10px }
+.bind .el-dialog{max-width:500px;min-width:0px;}
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration:  2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  /* .bb, .bb::before, .bb::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+   
+  .bb {
+    width: 536px;
+    height: 200px;
+    margin: auto;
+    background: url("img/Button-White-Large.png") no-repeat 50%/70% rgba(0, 0, 0, 0.1);
+    color: #69ca62;
+    box-shadow: inset 0 0 0 1px rgba(105, 202, 98, 0.5);
+  }
+  .bb::before, .bb::after {
+    content: '';
+    z-index: -1;
+    margin: -5%;
+    box-shadow: inset 0 0 0 2px;
+    animation: clipMe 8s linear infinite;
+  }
+  .bb::before {
+    animation-delay: -4s;
+  }
+  .bb:hover::after, .bb:hover::before {
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+   
+  @keyframes clipMe {
+    0%, 100% {
+      clip: rect(0px, 220.0px, 2px, 0px);
+    }
+    25% {
+      clip: rect(0px, 2px, 220.0px, 0px);
+    }
+    50% {
+      clip: rect(218.0px, 220.0px, 220.0px, 0px);
+    }
+    75% {
+      clip: rect(0px, 220.0px, 220.0px, 218.0px);
+    }
+  }    */
+
+ 
+
+
+
+

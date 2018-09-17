@@ -1,0 +1,9 @@
+.DataBase{width: 500px;height: auto;margin: 0 auto}
+.title{font-size: 26px;font-weight: bold;text-align: center;margin-bottom: 10px}
+.search{height: 10px;margin-bottom: 30px;margin-top: 40px;}
+.el-input-group__append{background: #41bfbf}
+.search-title{float: left;color: #606266;font-size: 16px;padding-left: 10px;border-left: 4px solid #41bfbf;}
+.search-line{float: left;width: 370px;background: rgb(236, 242, 245);height: 1px;margin: 10px 0px 0px 10px;}
+.sub-title{margin-bottom: 5px;color: #606266}
+.row{margin-bottom: 10px}
+.el-icon-search{color: #fff}

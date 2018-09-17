@@ -1,0 +1,57 @@
+
+html,body{ margin: 0; padding: 0;font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+        background: #fff; height: 100%;}
+html{
+    padding: 0; margin: 0; height: 100%; font-size: 16px; background-repeat: no-repeat; 
+      background-position: left top; color: #fff; font-family: 'Source Sans Pro'; 
+       background: #fff;
+  }
+  body {overflow: hidden; margin: 0; padding: 0; height: 100%;font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;}
+input,button,select{font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;}
+#wrapper{ background: #FFF !important}
+.logos{ position: absolute; top:15%; left: 50%; width: 300px; overflow: hidden; margin-left:-150px; }
+.logos img{ width: 100%}
+.loginForm{box-shadow: -15px 15px 15px rgba(6, 17, 47, 0.7);
+  opacity: 1;
+  top: 20px;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.25, 0.265, 0.85);
+  -webkit-transition-property: -webkit-transform,opacity,box-shadow,top,left;
+          transition-property: transform,opacity,box-shadow,top,left;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transform-origin: 161px 100%;
+      -ms-transform-origin: 161px 100%;
+          transform-origin: 161px 100%;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  position: relative;
+  width: 400px;
+  /*border-top: 2px solid #D8312A;*/
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding: 40px;
+  border-radius:5px; 
+  background: #fff;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #fff), color-stop(100%, rgb(0, 0, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(230deg, rgba(200, 190, 170, 0) 0%, rgb(0, 0, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(230deg, rgba(200, 190, 170, 0) 0%, rgb(0, 0, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(200, 190, 170, 0)', endColorstr='rgb(0, 0, 0)',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+.loginForm .title{font-size: 18px; text-align: center; border-bottom:1px solid rgba(255, 255, 255,.5); padding-bottom:20px }
+.Form{ padding-top:50px }
+.el-input{ margin-bottom: 20px}
+.el-input-group__prepend{ width: 20px; padding: 0px 10px; text-align: center; background: none; color: #fff; border-color: rgba(255, 255, 255,.5) }
+.el-input__inner{ background: none;border-color: rgba(255, 255, 255,.5); color: #fff}

@@ -1,0 +1,9 @@
+/*知识库界面样式*/
+.TableList{height: auto; overflow:hidden; padding-top: 15px}
+.TextLeft .el-table th>.cell{text-align: left}
+.TextLeft .el-table td>.cell{font-size: 12px; text-align: left}
+.dialogueList{ height: 422px; border-bottom:1px solid #ececec;max-height: 452px;
+     overflow-y: auto; padding: 15px; background-size:cover;  }
+.DialogueMain .dialogue {height:500px; background: #FFF}
+.DialogueInput{ padding-top: 10px}
+.el-select-dropdown{max-width:680px;}

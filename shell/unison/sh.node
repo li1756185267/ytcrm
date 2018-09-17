@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# 安装ocaml
+cd /root && wget http://caml.inria.fr/pub/distrib/ocaml-3.10/ocaml-3.10.2.tar.gz && tar -zxvf ocaml-3.10.2.tar.gz && cd ocaml-3.10.2/ && ./configure && make world opt && make install
+
+# 安装unison
+yum -y install ctags-etags && cd /root && wget http://www.seas.upenn.edu/~bcpierce/unison//download/releases/unison-2.32.52/unison-2.32.52.tar.gz && tar -zxvf unison-2.32.52.tar.gz && cd unison-2.32.52/ && make UISTYLE=text THREADS=true STATIC=true && /usr/bin/cp -f unison /usr/bin/unison
+
+# ssh授权登录  e.g. 192.168.1.144 推送主机ip  192.168.1.139 接收主机ip
+ssh-keygen -t rsa
+scp ~/.ssh/id_rsa.pub 192.168.1.139:/root/.ssh/unison_rsa.pub
+ssh 192.168.1.139 "dir /root/.ssh || mkdir /root/.ssh && ls /root/.ssh/authorized_keys || touch /root/.ssh/authorized_keys"
+ssh 192.168.1.139 "cat /root/.ssh/unison_rsa.pub >> /root/.ssh/authorized_keys"
+
+# unison数据推送
+unison ssh://root@192.168.1.139:22//root/unison-test /root/unison-test -batch

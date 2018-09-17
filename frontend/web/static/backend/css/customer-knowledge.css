@@ -1,0 +1,3 @@
+.KnowledgeList {display: flex;}
+.CustomerKnowledge .NaveLeft{width: 200px; height: 100%; overflow: hidden; }
+.CustomerKnowledge .tabright{ flex: 1; padding-left:15px; width: 100%}

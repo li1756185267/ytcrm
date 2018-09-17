@@ -1,0 +1,4 @@
+
+.CustomerCust ul.up{ display: block; height: auto; overflow: hidden; margin-bottom: 15px}
+.CustomerCust ul.up li{ float: left;}
+.restore{ margin-bottom: 15px; margin-top: 20px; height: auto; overflow: hidden}

@@ -1,0 +1,6 @@
+.VoiceTop{ height: auto; overflow: hidden;margin-bottom: 15px;}
+.VoiceTop ul li{ float: left; margin-right: 10px}
+.TextLeft .el-table th>.cell{text-align: left}
+.TextLeft .el-table td>.cell{font-size: 12px; text-align: left}
+.upload .el-dialog{min-width:300px;max-width:300px;}
+/* .ConentText{ line-height: 25px;} */

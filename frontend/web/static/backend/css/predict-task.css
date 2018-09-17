@@ -1,0 +1,13 @@
+
+
+.PredictAdd{height: auto; overflow: hidden; margin-bottom: 20px;}
+.PredictTask ul.up{ margin-bottom: 15px}
+.PredictTask ul.up li{display: inline-block; *display: inherit; *zoom: 1}
+.PredictTask ul.up li .el-button:nth-child(1){ margin-left: 10px}
+.list{ margin-bottom: 15px; height: auto; overflow: hidden;}
+.DataButton{ text-align: right; margin-bottom: 15px; height: auto; overflow: hidden;}
+
+.tag-dial .option ul li{ display: block; width: 100%; padding: 10px 0;}
+.tag-dial .option ul li span.text{ float: left; line-height: 39px}
+.tag-dial .option ul li .el-button{ width: 120px; text-align: left; margin-left: 15px}
+.tag-dial .option ul li .el-button i{ margin-right: 5px}

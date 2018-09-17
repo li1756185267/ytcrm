@@ -1,0 +1,5 @@
+.DataButton{ height: auto; overflow: hidden; margin-bottom: 15px; text-align: right;margin-top: 15px;}
+.GroupAdd{height: auto; overflow: hidden; margin-bottom: 20px;}
+.GroupTask ul.up{ margin-bottom: 15px}
+.GroupTask ul.up li{display: inline-block; *display: inherit; *zoom: 1}
+.GroupTask ul.up li .el-button:nth-child(1){ margin-left: 10px}

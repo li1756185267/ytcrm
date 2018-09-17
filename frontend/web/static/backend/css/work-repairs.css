@@ -1,0 +1,37 @@
+.textInput{padding:15px 0;}
+.assignWork .el-dialog{width:550px;min-width:550px;}
+.el-upload-list{overflow:hidden;}
+.uploadWork .el-upload-list__item{width:100px;float:left}
+.uploadWork li .el-upload-list__item-name{display:none;}
+.el-upload-list--picture .el-upload-list__item{padding:10px 20px 10px 10px;border:none;}
+.el-upload-list--picture .el-upload-list__item-thumbnail{margin-left:0px;}
+.el-upload__tip{color:red;}
+.dialogueOrder{border-bottom: 1px solid #ececec;max-height: 452px;overflow-y: auto;padding: 15px;background-size: cover;}
+.dialogueOrder ul .layim-chat-mine {text-align: right;padding-left: 0;padding-right: 60px;}
+.dialogueOrder ul .layim-chat-mine .layim-chat-user {left: auto;right: 3px;}
+.dialogueOrder ul .layim-chat-mine .layim-chat-user cite {left: auto;right: 60px;text-align: right;}
+.dialogueOrder ul .layim-chat-mine .layim-chat-user cite i {padding-left: 0;padding-right: 15px;}
+.dialogueOrder ul .layim-chat-mine .layim-chat-text {margin-left: 0;text-align: left;background-color: #5FB878;color: #fff;}
+.dialogueOrder ul .layim-chat-mine .layim-chat-text:after {left: auto;right: -10px;border-top-color: #5FB878;}
+.dialogueOrder ul li{position: relative;font-size: 0;margin-bottom: 10px;padding-left: 60px;min-height: 68px;}
+.dialogueOrder ul li .el-button{ padding: 5px 10px;font-size: 12px}
+.DialogueMain .dialogueWord { background: #FFF}
+.accepted{color:red;font-size:16px;line-height:25px;height:25px;}
+.finished{color:green;font-size:16px;line-height:25px;height:25px;}
+.el-upload__tip{font-size:14px;}
+.forImg img{width:150px;max-height:68px;}
+.coverImg{position:absolute;left:0px;top:40px;width:700px;max-height:700px;}
+.coverImg .fa{position:absolute;right:16px;top:0px;font-size:40px;}
+.coverImg img{width:700px;max-height:700px;box-shadow: 0 0 10px #888888;}
+.el-dialog__body{padding:10px;}
+.dialogueWorkDetail{padding: 15px;}
+.dialogueWorkDetail ul{max-height: 800px;overflow-y:auto;}
+.dialogueWorkDetail ul .layim-chat-mine {text-align: right;padding-left: 0;padding-right: 60px;}
+.dialogueWorkDetail ul .layim-chat-mine .layim-chat-user {left: auto;right: 3px;}
+.dialogueWorkDetail ul .layim-chat-mine .layim-chat-user cite {left: auto;right: 60px;text-align: right;}
+.dialogueWorkDetail ul .layim-chat-mine .layim-chat-user cite i {padding-left: 0;padding-right: 15px;}
+.dialogueWorkDetail ul .layim-chat-mine .layim-chat-text {margin-left: 0;text-align: left;background-color: #5FB878;color: #fff;}
+.dialogueWorkDetail ul .layim-chat-mine .layim-chat-text:after {left: auto;right: -10px;border-top-color: #5FB878;}
+.dialogueWorkDetail ul li{position: relative;font-size: 0;margin-bottom: 10px;padding-left: 60px;min-height: 68px;}
+.dialogueWorkDetail ul li .el-button{ padding: 5px 10px;font-size: 12px}
+.submitButton{padding:10px 0px;text-align:right;}

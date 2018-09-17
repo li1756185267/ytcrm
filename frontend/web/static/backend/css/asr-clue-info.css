@@ -1,0 +1,29 @@
+p{margin: 0;padding: 0}
+.DataBase{width: 800px;height: auto;margin: 0 auto}
+.title{font-size: 26px;font-weight: bold;text-align: center;margin-bottom: 10px}
+.search{height: 20px; margin-bottom: 20px;}
+.search:nth-child(1){ margin-top: 30px;}
+.search .el-radio-group{ line-height: 20px}
+.countData{ height: 50px; overflow: hidden;}
+.el-input-group__append{background: #41bfbf}
+.search-title{float: left;color: #727273;font-size: 14px;padding-right: 10px;border-right: 4px solid #e2e2e4;line-height: 20px;
+  height: 20px;}
+.search-line{float: left;width: 370px;background: rgb(236, 242, 245);height: 1px;margin: 10px 0px 0px 10px;}
+.sub-title{margin-bottom: 5px;color: #606266}
+.row{margin-bottom: 10px}
+.el-icon-search{color: #fff}
+.el-input__inner{border:none}
+.el-input{width:100px}
+#multi-select-1 .city-info{border:none;width:100px;background:#fff}
+#multi-select-1 .city-input em{color:#C0C4CC}
+.input-with-select{width:420px;border:1px solid #dcdfe6;border-radius: 4px;padding:0 15px;margin:0 100px}
+.el-input-group__append{left:63px}
+.search-content{margin-top: -10px;float: left;}
+.el-tag{height:23px;line-height: 23px;padding: 0 5px;margin-left: 3px}
+.lists{height:680px;}
+.list{border: 1px solid #e2e2e4;border-radius: 4px;padding: 10px;height:160px;margin-bottom: 10px; transition: all .2s;}
+.content{display: flex;}
+.img{margin-top:20px;margin-right: 10px}
+.content-title{font-size: 16px;font-weight: 700;color: #504b47;margin-bottom: 15px;margin-top: 5px;display: inline-block;}
+.content-detli{margin-bottom: 10px;font-size: 14px;}
+.content-left{color: #999}

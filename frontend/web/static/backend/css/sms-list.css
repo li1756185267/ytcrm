@@ -1,0 +1,12 @@
+.sms_add{ height: auto; overflow: hidden; display: flex; width: 900px}
+.sms_add .form{ flex: 6; width: 600px}
+.sms_add .text{color: #F56C6C}
+.sms_add .tpl{ padding:0px 15px; flex: 4; width: 300px;}
+.sms_add .tpl .TplMain{ border: 1px solid #409EFF; border-radius:3px; }
+.sms_add .tpl .TplMain .tpl_title{ background: #409EFF; height: 35px; color: #fff;font-size: 16px; line-height: 35px; padding-left: 15px}
+.sms_add .tpl .TplMain .tpl_list{ padding: 10px 15px;}
+.sms_add .tpl .TplMain .tpl_list ul li{ line-height: 25px;font-size: 14px; cursor: pointer}
+.sms_add .tpl .TplMain .tpl_list ul li:hover{ color: #409EFF}
+.remainNum{color:red;font-size:20px;padding:10px 0;}
+.up:after {content:""; display: block; clear:both;}
+.sms_many_up{padding:15px;}

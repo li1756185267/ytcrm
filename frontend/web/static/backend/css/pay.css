@@ -1,0 +1,4 @@
+.pay{ display: flex}
+.pay .PayPic{ width: 185px; overflow: hidden; flex: 2; padding-right: 15px;}
+.pay .PayPic img{ width: 100%;}
+.pay .TableList{ flex: 8;}
